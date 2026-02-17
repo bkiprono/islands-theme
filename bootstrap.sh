@@ -3,13 +3,13 @@
 set -e
 
 # Islands Dark Theme Bootstrap Installer
-# One-liner: curl -fsSL https://raw.githubusercontent.com/bwya77/vscode-dark-islands/main/bootstrap.sh | bash
+# One-liner: curl -fsSL https://raw.githubusercontent.com/bkiprono/islands-theme/main/bootstrap.sh | bash
 
 echo "🏝️  Islands Dark Theme Bootstrap Installer"
 echo "=========================================="
 echo ""
 
-REPO_URL="https://github.com/bwya77/vscode-dark-islands.git"
+REPO_URL="https://github.com/bkiprono/islands-theme.git"
 INSTALL_DIR="$HOME/.islands-dark-temp"
 
 # Detect OS

@@ -71,7 +71,7 @@
 
     "tree.indentGuidesStroke": "#3c3f45",
 
-    "activityBar.background": "#181a1d",
+    "activityBar.background": "#121216",
     "activityBar.foreground": "#bcbec4",
     "activityBar.inactiveForeground": "#6f737a",
     "activityBar.border": "#181a1d00",
@@ -79,7 +79,7 @@
     "activityBarBadge.background": "#548af7",
     "activityBarBadge.foreground": "#ffffff",
 
-    "sideBar.background": "#181a1d",
+    "sideBar.background": "#121216",
     "sideBar.foreground": "#bcbec4",
     "sideBar.border": "#181a1d00",
     "sideBar.dropBackground": "#25324d80",
@@ -119,7 +119,7 @@
     "tab.hoverForeground": "#b0b2b8",
     "tab.lastPinnedBorder": "#2b2d30",
 
-    "editor.background": "#181a1d",
+    "editor.background": "#121216",
     "editor.foreground": "#bcbec4",
     "editorLineNumber.foreground": "#4e5157",
     "editorLineNumber.activeForeground": "#a1a3ab",
@@ -205,7 +205,7 @@
     "merge.commonHeaderBackground": "#3c3f4160",
     "merge.commonContentBackground": "#3c3f4130",
 
-    "panel.background": "#181a1d",
+    "panel.background": "#121216",
     "panel.border": "#181a1d00",
     "panel.dropBorder": "#548af7",
     "panelTitle.activeBorder": "#548af7",
@@ -213,7 +213,7 @@
     "panelTitle.inactiveForeground": "#7a7e85",
     "panelSection.border": "#2b2d30",
 
-    "statusBar.background": "#181a1d",
+    "statusBar.background": "#121216",
     "statusBar.foreground": "#35383d",
     "statusBar.border": "#181a1d00",
     "statusBar.noFolderBackground": "#181a1d",
@@ -232,9 +232,9 @@
     "statusBarItem.warningBackground": "#e8a33e",
     "statusBarItem.warningForeground": "#191a1c",
 
-    "titleBar.activeBackground": "#181a1d",
+    "titleBar.activeBackground": "#121216",
     "titleBar.activeForeground": "#bcbec4",
-    "titleBar.inactiveBackground": "#181a1d",
+    "titleBar.inactiveBackground": "#121216",
     "titleBar.inactiveForeground": "#7a7e85",
     "titleBar.border": "#181a1d00",
 
@@ -268,7 +268,7 @@
     "breadcrumb.activeSelectionForeground": "#bcbec4",
     "breadcrumbPicker.background": "#181a1d",
 
-    "terminal.background": "#181a1d",
+    "terminal.background": "#121216",
     "terminal.foreground": "#bcbec4",
     "terminal.ansiBlack": "#191a1c",
     "terminal.ansiRed": "#f75464",
@@ -1063,6 +1063,7 @@
     "variable": "#bcbec4",
     "variable.readonly": "#c77dbb",
     "variable.declaration": "#bcbec4",
+    "variable.defaultLibrary": "#c77dbb",
     "parameter": "#bcbec4",
     "property": "#c77dbb",
     "property.declaration": "#c77dbb",

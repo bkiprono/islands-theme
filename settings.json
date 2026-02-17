@@ -9,7 +9,7 @@
   "editor.minimap.showSlider": "always",
   "custom-ui-style.stylesheet": {
    ".monaco-workbench": {
-      "background-color": "#121216 !important"
+      "background-color": "var(--vscode-editor-background) !important"
    },
    ".part.sidebar": {
       "font-family": "'Bear Sans UI', sans-serif !important",
@@ -107,7 +107,7 @@
       "border-left": "1px solid rgba(255,255,255,0.08) !important",
       "border-bottom": "1px solid rgba(255,255,255,0.03) !important",
       "border-right": "1px solid rgba(255,255,255,0.03) !important",
-      "box-shadow": "0 2px 8px 0 rgba(0,0,0,0.3) !important"
+      "box-shadow": "0 4px 12px 0 rgba(0,0,0,0.4) !important"
    },
    ".editor-actions": {
       "padding-right": "20px !important",
@@ -243,7 +243,7 @@
       "width": "calc(100% - 14px) !important"
    },
     ".part.activitybar": {
-       "background": "#121216 !important",
+       "background": "var(--vscode-activityBar-background) !important",
        "margin": "8px 20px 30px 12px",
       "width": "48px !important",
       "min-width": "48px !important"
@@ -306,13 +306,13 @@
       "transform": "scale(0.8) !important",
       "transform-origin": "top right !important"
    },
-   ".part.titlebar": {
-      "background-color": "#121216 !important"
-   },
-   ".part.statusbar": {
-      "background-color": "#121216 !important",
-      "font-family": "'Bear Sans UI', sans-serif !important"
-   },
+    ".part.titlebar": {
+       "background-color": "var(--vscode-titleBar-activeBackground) !important"
+    },
+    ".part.statusbar": {
+       "background-color": "var(--vscode-statusBar-background) !important",
+       "font-family": "'Bear Sans UI', sans-serif !important"
+    },
    ".part.statusbar .statusbar-item-label": {
       "transition": "color 0.4s cubic-bezier(0.4, 0, 0.2, 1)"
    },

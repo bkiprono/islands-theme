@@ -7,7 +7,6 @@
     <img src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA" />
 </a>
 
-
 ## **THIS THEME IS STILL A WORK IN PROGRESS**
 
 A dark color theme for Visual Studio Code inspired by JetBrains' Islands Dark theme. Features floating glass-like panels, rounded corners, smooth animations, and a deeply refined UI.
@@ -41,13 +40,13 @@ The fastest way to install:
 #### macOS/Linux
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/bwya77/vscode-dark-islands/main/bootstrap.sh | bash
+curl -fsSL https://raw.githubusercontent.com/bkiprono/islands-theme/main/bootstrap.sh | bash
 ```
 
 #### Windows
 
 ```powershell
-irm https://raw.githubusercontent.com/bwya77/vscode-dark-islands/main/bootstrap.ps1 | iex
+irm https://raw.githubusercontent.com/bkiprono/islands-theme/main/bootstrap.ps1 | iex
 ```
 
 ### Manual Clone Install
@@ -57,7 +56,7 @@ If you prefer to clone first:
 #### macOS/Linux
 
 ```bash
-git clone https://github.com/bwya77/vscode-dark-islands.git islands-dark
+git clone https://github.com/bkiprono/islands-theme.git islands-dark
 cd islands-dark
 ./install.sh
 ```
@@ -65,12 +64,13 @@ cd islands-dark
 #### Windows
 
 ```powershell
-git clone https://github.com/bwya77/vscode-dark-islands.git islands-dark
+git clone https://github.com/bkiprono/islands-theme.git islands-dark
 cd islands-dark
 .\install.ps1
 ```
 
 The scripts will automatically:
+
 - ✅ Install the Islands Dark theme extension
 - ✅ Install the Custom UI Style extension
 - ✅ Install Bear Sans UI fonts
@@ -88,7 +88,7 @@ If you prefer to install manually, follow these steps:
 Clone this repo and copy the extension files:
 
 ```bash
-git clone https://github.com/bwya77/vscode-dark-islands.git islands-dark
+git clone https://github.com/bkiprono/islands-theme.git islands-dark
 cd islands-dark
 mkdir -p ~/.vscode/extensions/bwya77.islands-dark-1.0.0
 cp package.json ~/.vscode/extensions/bwya77.islands-dark-1.0.0/
@@ -96,8 +96,9 @@ cp -r themes ~/.vscode/extensions/bwya77.islands-dark-1.0.0/
 ```
 
 On Windows (PowerShell):
+
 ```powershell
-git clone https://github.com/bwya77/vscode-dark-islands.git islands-dark
+git clone https://github.com/bkiprono/islands-theme.git islands-dark
 cd islands-dark
 $ext = "$env:USERPROFILE\.vscode\extensions\bwya77.islands-dark-1.0.0"
 New-Item -ItemType Directory -Path $ext -Force
@@ -131,6 +132,7 @@ This theme uses two fonts:
 - **Bear Sans UI** — used in the sidebar, tabs, command center, and status bar (included in `fonts/` folder)
 
 To install Bear Sans UI:
+
 1. Open the `fonts/` folder in this repo
 2. Select all `.otf` files and double-click to open in Font Book (macOS) or right-click > Install (Windows)
 
@@ -176,16 +178,20 @@ Copy the contents of `settings.json` from this repo into your VS Code: settings:
 ## Troubleshooting
 
 ### Changes aren't taking effect
+
 Try disabling and re-enabling Custom UI Style:
+
 1. **Command Palette** > **Custom UI Style: Disable**
 2. Reload VS Code
 3. **Command Palette** > **Custom UI Style: Enable**
 4. Reload VS Code
 
 ### "Corrupt installation" warning
+
 This is expected after enabling Custom UI Style. Dismiss it or select **Don't Show Again**.
 
 ### Previously used "Custom CSS and JS Loader" extension
+
 If you previously used the **Custom CSS and JS Loader** extension (`be5invis.vscode-custom-css`), it may have injected CSS directly into VS Code's `workbench.html` that persists even after disabling. If styles conflict, reinstall VS Code to get a clean `workbench.html`, then use only **Custom UI Style**.
 
 ## Credits
