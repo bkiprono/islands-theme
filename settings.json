@@ -201,20 +201,20 @@
    ".extensions-search-container .suggest-input-placeholder": {
       "font-size": "12px !important"
    },
-   ".scm-editor": {
-      "border-radius": "9999px !important",
-      "overflow": "hidden !important"
-   },
-   ".scm-input": {
-      "border-radius": "9999px !important",
-      "overflow": "hidden !important"
-   },
-   ".scm-input + .scm-editor-toolbar + .monaco-button": {
-      "border-radius": "9999px !important"
-   },
-   ".part.sidebar .monaco-button": {
-      "border-radius": "9999px !important"
-   },
+    ".scm-editor": {
+       "border-radius": "12px !important",
+       "overflow": "hidden !important"
+    },
+    ".scm-input": {
+       "border-radius": "12px !important",
+       "overflow": "hidden !important"
+    },
+    ".scm-input + .scm-editor-toolbar + .monaco-button": {
+       "border-radius": "8px !important"
+    },
+    ".part.sidebar .monaco-button": {
+       "border-radius": "8px !important"
+    },
    ".part.panel.bottom": {
       "margin": "0 8px",
       "border-radius": "14px",
